@@ -28,6 +28,32 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 let number = "0";
 
 let numberIntoString = String(number);
-console.log(numberIntoString);
-console.log(typeof(numberIntoString));
+// console.log(numberIntoString);
+// console.log(typeof(numberIntoString));
+
+
+// ******************************* OPERATIONS ************************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+
+let str1 = "Rahul";
+let str2 = "Dhanavansh";
+
+let str3 = (str1 + str2);
+console.log(str3);
+
+console.log("1"+2);  //>= 12
+console.log(1+"2");  //>=12 
+
+console.log("1"+2+2); //>=122
+console.log(1+"2"+2); //>=122
+console.log(1+2+"2"); //>=32
+
+let stt = "Rahul";
+//only Rahul will not be defined we have to use "" ;
+console.log(typeof(stt));
+
 
