@@ -43,17 +43,24 @@ let str1 = "Rahul";
 let str2 = "Dhanavansh";
 
 let str3 = (str1 + str2);
-console.log(str3);
+// console.log(str3);
 
-console.log("1"+2);  //>= 12
-console.log(1+"2");  //>=12 
+// console.log("1"+2);  //>= 12
+// console.log(1+"2");  //>=12 
 
-console.log("1"+2+2); //>=122
-console.log(1+"2"+2); //>=122
-console.log(1+2+"2"); //>=32
+// console.log("1"+2+2); //>=122
+// console.log(1+"2"+2); //>=122
+// console.log(1+2+"2"); //>=32
 
 let stt = "Rahul";
 //only Rahul will not be defined we have to use "" ;
-console.log(typeof(stt));
+// console.log(typeof(stt));
 
 
+// readability in the code is most  important
+
+let gameCounter =100;
+++gameCounter ;
+console.log(gameCounter);
+
+ 
